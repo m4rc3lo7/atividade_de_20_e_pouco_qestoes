@@ -1,0 +1,10 @@
+t= input(
+    "Digite seu turno, M ou matutino, V ou vespertino, N ou noturno: ").upper()
+if t == "M":
+    print("Bom dia meu chapa")
+elif t == "V":
+    print("Boa tarde meu parciro")
+elif t == "N":
+    print("Boa noite corujinha")
+else:
+    print("Valor não reconhecido")
